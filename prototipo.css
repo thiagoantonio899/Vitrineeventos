@@ -1,0 +1,464 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  background-color: #191d88;
+  font: normal;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.header1 {
+  max-width: 100%;
+  min-width: 320px;
+  height: 10%;
+  display: flex;
+  background-color: #191d88;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  width: 565px;
+  margin-left: -10%;
+  margin: 1%;
+}
+
+.header1 h1 {
+  text-align: left;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-top: 30px;
+  padding-left: 60px;
+  font-size: 30px;
+}
+
+.listaheader {
+  font-size: 20px;
+  padding-left: 1%;
+  margin-top: 7%;
+  height: 100%;
+  text-decoration: none;
+  gap: 15px;
+  list-style: none;
+  display: flex;
+  color: white;
+  width: 100%;
+}
+
+.listaheader a {
+  color: #ffc436;
+  text-decoration: none;
+}
+
+.listaheader a:hover {
+  color: rgb(78, 205, 255);
+  text-decoration: none;
+}
+
+.inicio {
+  font-size: 20px;
+  color: rgb(78, 205, 255);
+  text-decoration: none;
+  height: 1%;
+  margin-top: 7%;
+  padding-bottom: 1%;
+  width: auto;
+}
+
+.inicio:hover {
+  font-size: 20px;
+  color: #ffc436;
+  text-decoration: none;
+  height: 1%;
+  margin-top: 7%;
+  padding-bottom: 1%;
+  width: auto;
+}
+
+/* Css da pagina dos eventos */
+.começo {
+  text-align: center;
+  width: 100%;
+}
+.começo p {
+  font-size: 35px;
+  animation: começo 1s infinite;
+}
+
+@keyframes começo {
+  0% {
+    transform: none;
+    opacity: 0;
+    animation-delay: 1s;
+  }
+  60% {
+    color: #ffc436;
+  }
+  100% {
+    color: rgb(57, 167, 255);
+  }
+}
+
+.texto1 {
+  line-height: 4em;
+  text-align: center;
+}
+.texto2 {
+  line-height: 4em;
+  text-align: center;
+}
+.texto3 {
+  line-height: 4em;
+  text-align: center;
+}
+.texto4 {
+  line-height: 4em;
+  text-align: center;
+}
+.texto5 {
+  line-height: 4em;
+  text-align: center;
+}
+.texto6 {
+  line-height: 4em;
+  text-align: center;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 4em;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+}
+.new {
+  background-color: rgb(57, 167, 255);
+  text-align: center;
+  font-size: larger;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: auto;
+  width: 70%;
+}
+.lista1 {
+  text-align: center;
+}
+.ano-novo {
+  margin: auto;
+  width: 91%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.i1 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+  background: none;
+}
+
+.i1 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.i2 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+  background: none;
+}
+
+.i2 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.i3 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+  background: none;
+}
+
+.i3 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.festa-carnaval {
+  margin: auto;
+  width: 91%;
+  display: flex;
+  justify-content: center;
+}
+.f1 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.f1 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.f2 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.f2 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.f3 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.f3 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.carnaval {
+  background-color: rgb(57, 167, 255);
+  text-align: center;
+  font-size: larger;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: auto;
+  width: 70%;
+}
+
+.festival-cores {
+  margin: auto;
+  width: 91%;
+  display: flex;
+  justify-content: center;
+}
+.c1 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.c1 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.c2 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.c2 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.c3 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.c3 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.cores {
+  background-color: rgb(57, 167, 255);
+  text-align: center;
+  font-size: larger;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: auto;
+  width: 70%;
+}
+
+.maratona {
+  margin: auto;
+  width: 91%;
+  display: flex;
+  justify-content: center;
+}
+.m1 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.m1 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.m2 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.m2 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.m3 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.m3 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.corrida {
+  background-color: rgb(57, 167, 255);
+  text-align: center;
+  font-size: larger;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: auto;
+  margin: auto;
+  width: 70%;
+}
+
+.doação-de-sangue {
+  margin: auto;
+  width: 91%;
+  display: flex;
+  justify-content: center;
+}
+.d1 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.d1 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.d2 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.d2 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.d3 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.d3 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.doação {
+  background-color: rgb(57, 167, 255);
+  text-align: center;
+  font-size: larger;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: auto;
+  margin: auto;
+  width: 70%;
+}
+
+.trilha-bike {
+  margin: auto;
+  width: 91%;
+  display: flex;
+  justify-content: center;
+}
+.trilha1 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.trilha1 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.trilha2 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.trilha2 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.trilha3 {
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 500px;
+}
+
+.trilha3 :hover {
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+.trilha {
+  background-color: rgb(57, 167, 255);
+  text-align: center;
+  font-size: larger;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: auto;
+  width: 70%;
+}
+
+footer {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 10em;
+}

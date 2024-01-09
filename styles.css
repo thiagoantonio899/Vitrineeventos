@@ -1,0 +1,275 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header1 {
+  max-width: 100%;
+  min-width: 320px;
+  height: 10%;
+  display: flex;
+  background-color: #191d88;
+  justify-content: space-between;
+}
+
+.botmenu {
+  display: none;
+}
+.menu {
+  display: flex;
+  gap: 15px;
+  width: 565px;
+  margin-left: -10%;
+  margin: 1%;
+}
+
+.header1 h1 {
+  text-align: left;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-top: 10px;
+  padding-left: 60px;
+  font-size: 30px;
+}
+
+.listaheader {
+  font-size: 20px;
+  padding-left: 1%;
+  margin-top: 1%;
+  height: 100%;
+  text-decoration: none;
+  gap: 15px;
+  list-style: none;
+  display: flex;
+  color: white;
+  width: 100%;
+}
+
+.listaheader a {
+  color: #ffc436;
+  text-decoration: none;
+}
+
+.listaheader a:hover {
+  color: rgb(78, 205, 255);
+  text-decoration: none;
+}
+
+.inicio {
+  font-size: 20px;
+  color: rgb(78, 205, 255);
+  text-decoration: none;
+  height: 1%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  width: auto;
+}
+
+.inicio:hover {
+  font-size: 20px;
+  color: #ffc436;
+  text-decoration: none;
+  height: 1%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  width: auto;
+}
+
+.conttotal {
+  display: flex;
+}
+
+.divesquerda {
+  width: 85%;
+  display: flexbox;
+}
+
+.anuncios {
+  width: 15%;
+}
+
+.anuncios img {
+  width: 100%;
+}
+
+.primdiv {
+  display: flexbox;
+  text-align: center;
+  margin-top: 1%;
+  height: 10%;
+}
+
+.img1 {
+  width: 50%;
+}
+
+.primads {
+  width: 50%;
+  margin: auto;
+  margin-top: 9.5%;
+}
+
+.banner1 {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.banner1 img {
+  width: 25%;
+}
+
+.titles1 {
+  font-size: 22px;
+  text-align: center;
+  display: box;
+  padding-left: auto;
+  padding-top: 1%;
+  height: 3%;
+  width: 46.1%;
+  margin: auto;
+}
+
+.titles1 .lista2 {
+  list-style: none;
+  display: flex;
+  gap: 13%;
+  margin-left: -2%;
+  margin-top: -1%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1280px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flexbox;
+  }
+
+  .header1 {
+    width: 100%;
+    height: 15%;
+    display: block;
+    block-size: auto;
+    background-color: #191d88;
+  }
+
+  .header1 h1 {
+    color: white;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin: auto;
+    margin-left: -50px;
+    font-size: 30px;
+    block-size: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .botmenu {
+    display: block;
+    margin: auto;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-left: 95%;
+    background-color: #ffc436;
+    cursor: pointer;
+    display: block;
+  }
+
+  .menu {
+    width: 42%;
+    margin: auto;
+    display: none;
+  }
+
+  .listaheader {
+    font-size: 100%;
+    margin: auto;
+    height: 30%;
+    text-decoration: none;
+    gap: 20px;
+    list-style: none;
+    display: flex;
+    color: white;
+  }
+
+  .listaheader a {
+    color: #ffc436;
+    text-decoration: none;
+  }
+
+  .listaheader a:hover {
+    color: rgb(78, 205, 255);
+    text-decoration: none;
+  }
+
+  .inicio {
+    font-size: 100%;
+    color: rgb(78, 205, 255);
+    text-decoration: none;
+    margin: auto;
+  }
+
+  .inicio:hover {
+    font-size: 100%;
+    color: #ffc436;
+    text-decoration: none;
+    margin: auto;
+  }
+
+  .conttotal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divesquerda {
+    margin: auto;
+  }
+
+  .anuncios {
+    width: 80%;
+    margin: auto;
+    display: flex;
+  }
+
+  .anuncios img {
+    width: 15%;
+  }
+
+  .primdiv {
+    display: flexbox;
+    text-align: center;
+    height: 30%;
+  }
+
+  .img1 {
+    width: 80%;
+  }
+
+  .primads {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .banner1 {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    width: 12em;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .banner1 img {
+    margin: auto;
+    width: 180px;
+  }
+}

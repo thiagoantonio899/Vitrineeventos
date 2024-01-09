@@ -1,0 +1,302 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header1 {
+  max-width: 100%;
+  min-width: 320px;
+  height: 10%;
+  display: flex;
+  background-color: #191d88;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+  width: 565px;
+  margin-left: -10%;
+  margin: 1%;
+}
+
+.header1 h1 {
+  text-align: left;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-top: 30px;
+  padding-left: 60px;
+  font-size: 30px;
+}
+
+.listaheader {
+  font-size: 20px;
+  padding-left: 1%;
+  margin-top: 1%;
+  height: 100%;
+  text-decoration: none;
+  gap: 15px;
+  list-style: none;
+  display: flex;
+  color: white;
+  width: 100%;
+}
+
+.listaheader a {
+  color: #ffc436;
+  text-decoration: none;
+}
+
+.listaheader a:hover {
+  color: rgb(78, 205, 255);
+  text-decoration: none;
+}
+
+.inicio {
+  font-size: 20px;
+  color: rgb(78, 205, 255);
+  text-decoration: none;
+  height: 1%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  width: auto;
+}
+
+.inicio:hover {
+  font-size: 20px;
+  color: #ffc436;
+  text-decoration: none;
+  height: 1%;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  width: auto;
+}
+
+.orgevents {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 30px;
+  margin: -30px;
+}
+
+.primdiv {
+  display: flexbox;
+  text-align: center;
+  margin-top: 10px;
+  height: 225px;
+}
+
+/* Zé do poirco */
+.container h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 300%;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.listaeventos .ze {
+  background-color: rgb(194, 194, 194);
+  height: 130px;
+  padding-left: 20px;
+}
+
+.linkze {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #ffc436;
+  background-color: rgb(27, 27, 180);
+  margin-right: 0px;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+/* maria  */
+.listaeventos .maria {
+  background-color: rgb(194, 194, 194);
+  height: 130px;
+  padding-left: 20px;
+}
+
+.marialink {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #ffc436;
+  background-color: rgb(27, 27, 180);
+  margin-right: 0px;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+/* Elias */
+.listaeventos .Elias {
+  background-color: rgb(194, 194, 194);
+  height: 130px;
+  padding-left: 20px;
+}
+
+.eliaslink {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #ffc436;
+  background-color: rgb(27, 27, 180);
+  margin-right: 0px;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1280px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flexbox;
+  }
+
+  .header1 {
+    width: 100%;
+    height: 15%;
+    display: block;
+    block-size: auto;
+    background-color: #191d88;
+  }
+
+  .header1 h1 {
+    color: white;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin: auto;
+    margin-left: -50px;
+    font-size: 30px;
+    block-size: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu {
+    width: 42%;
+    margin: auto;
+    display: flex;
+  }
+
+  .listaheader {
+    font-size: 100%;
+    margin: auto;
+    height: 30%;
+    text-decoration: none;
+    gap: 20px;
+    list-style: none;
+    display: flex;
+    color: white;
+  }
+
+  .listaheader a {
+    color: #ffc436;
+    text-decoration: none;
+  }
+
+  .listaheader a:hover {
+    color: rgb(78, 205, 255);
+    text-decoration: none;
+  }
+
+  .inicio {
+    font-size: 100%;
+    color: rgb(78, 205, 255);
+    text-decoration: none;
+    margin: auto;
+  }
+
+  .inicio:hover {
+    font-size: 100%;
+    color: #ffc436;
+    text-decoration: none;
+    margin: auto;
+  }
+
+  /* Zé do poirco */
+  .container h1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 300%;
+    padding-bottom: 10px;
+  }
+
+  .listaeventos .ze {
+    background-color: rgb(194, 194, 194);
+    height: 130px;
+    padding-left: 20px;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .linkze {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffc436;
+    background-color: rgb(27, 27, 180);
+    margin-right: 0px;
+    padding: 5px;
+    border-radius: 30px;
+  }
+
+  /* maria  */
+
+  .container {
+    width: 100%;
+  }
+
+  .listaeventos {
+    width: 90%;
+    margin: auto;
+  }
+
+  .listaeventos .maria {
+    background-color: rgb(194, 194, 194);
+    height: 130px;
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  .marialink {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffc436;
+    background-color: rgb(27, 27, 180);
+    margin-right: 0px;
+    padding: 5px;
+    border-radius: 30px;
+  }
+
+  /* Elias */
+  .listaeventos .Elias {
+    background-color: rgb(194, 194, 194);
+    height: 130px;
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  .eliaslink {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffc436;
+    background-color: rgb(27, 27, 180);
+    margin-right: 0px;
+    padding: 5px;
+    border-radius: 30px;
+  }
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(27, 27, 180);
+  color: white;
+  margin-top: 15px;
+  height: 10%;
+}
